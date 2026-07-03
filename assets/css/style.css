@@ -26,7 +26,10 @@ body {
     line-height: 1.7;
     background: #fff
 }
-
+p{
+    font-family: "Poppins", sans-serif;
+    
+}
 a {
     text-decoration: none !important;
 }
@@ -72,6 +75,7 @@ a {
 
 .section-title h2,
 .section h2 {
+    font-size: 32px;
     font-weight: 800;
     color: var(--navy)
 }
@@ -1483,7 +1487,7 @@ body{
 
 .stp-facilities-title{
     color:#fff;
-    font-size:3rem;
+font-size: 32px;
     font-weight:700;
     margin-bottom:12px;
 }
@@ -1709,6 +1713,10 @@ body{
     transform:translateY(-3px);
 }
 /* supprt */
+.stp-support-title{
+    font-size: 32px;
+    font-weight: 700;
+}
 .stpSupportSwiper{
     overflow: visible;
     padding:50px 0;
@@ -1757,7 +1765,7 @@ body{
 }
 
 .stp-support-content a{
-    color:#8a1538;
+    color:#14508c;
     font-weight:600;
     text-decoration:none;
 }
@@ -1782,8 +1790,8 @@ body{
 }
 
 .stp-gallery-title{
-    font-size:42px;
-    color:#0b5ed7;
+    font-size:32px;
+    color:#041631;
     font-weight:700;
 }
 
@@ -1859,17 +1867,10 @@ body{
     transform:translate(-50%,-50%) scale(1);
 }
 
-.stp-wide{
-    grid-column:span 2;
-}
 
-.stp-tall img{
-    height:540px;
-}
 
-.stp-wide img{
-    height:260px;
-}
+
+
 
 @media(max-width:991px){
 
@@ -1906,4 +1907,239 @@ body{
     font-size:32px;
 }
 
+}
+.gclose {
+    width: 50px !important;
+    height: 50px !important;
+    background: #000 !important;
+    border-radius: 50% !important;
+    color: #fff !important;
+    font-size: 30px !important;
+    line-height: 50px !important;
+    text-align: center !important;
+    top: 20px !important;
+    right: 20px !important;
+    /* opacity: 1 !important; */
+    transition: .3s;
+}
+
+.gclose:hover {
+    background: #084298 !important;
+    transform: rotate(90deg);
+}
+
+
+
+/* about-us */
+.stp-about-page{
+    background:#fff;
+}
+
+/* Left Content */
+
+.stp-content h2{
+    font-size:34px;
+    font-weight:700;
+    color:#0b3c82;
+    margin-bottom:25px;
+}
+
+.stp-content p{
+
+    font-size:17px;
+    line-height:1.9;
+
+    color:#555;
+
+    text-align:justify;
+
+    margin-bottom:25px;
+
+}
+
+/* Sidebar */
+
+.stp-sidebar{
+
+    background:#f3f5ff;
+
+    border-radius:8px;
+
+    padding:25px;
+
+    position:sticky;
+    top:110px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.05);
+
+}
+
+.stp-sidebar a{
+
+    display:block;
+
+    color:#333;
+
+    text-decoration:none;
+
+    padding:16px 0;
+
+    border-bottom:1px solid #ddd;
+
+    transition:.3s;
+
+    font-size:17px;
+
+}
+
+.stp-sidebar a:last-child{
+    border-bottom:none;
+}
+
+.stp-sidebar a:hover{
+
+    color:#0d6efd;
+    padding-left:12px;
+
+}
+
+.stp-sidebar a.active{
+
+    color:#0d6efd;
+    font-weight:700;
+
+}
+
+/* Tablet */
+
+@media(max-width:991px){
+
+.stp-sidebar{
+
+position:relative;
+
+top:auto;
+
+margin-bottom:30px;
+
+}
+
+}
+
+/* Mobile */
+
+@media(max-width:767px){
+
+.stp-content h2{
+font-size:28px;
+}
+
+.stp-content p{
+
+font-size:16px;
+
+}
+
+.stp-sidebar{
+
+padding:20px;
+
+}
+
+.stp-sidebar a{
+
+font-size:15px;
+
+padding:14px 0;
+
+}
+
+}
+
+
+/* mission-vision */
+.stp-accordion .accordion-item{
+    border:none;
+    border-radius:12px;
+    overflow:hidden;
+    margin-bottom:18px;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
+
+.stp-accordion .accordion-button{
+    background:linear-gradient(90deg,#0b5ed7,#0a3d91);
+    color:#fff;
+    font-size:18px;
+    font-weight:600;
+    padding:18px 22px;
+    box-shadow:none;
+}
+
+.stp-accordion .accordion-button:not(.collapsed){
+    background:linear-gradient(90deg,#0b5ed7,#0a3d91);
+    color:#fff;
+}
+
+.stp-accordion .accordion-button::after{
+    filter:brightness(0) invert(1);
+}
+
+.stp-accordion .accordion-body{
+    padding:30px;
+    background:#fff;
+}
+
+.stp-accordion h5{
+    color:#0b4da2;
+    font-weight:700;
+    margin-bottom:15px;
+}
+
+.stp-accordion p{
+    line-height:1.9;
+    color:#555;
+}
+
+.stp-card{
+    background:#eef6ff;
+    border-left:5px solid #0b5ed7;
+    border-radius:12px;
+    padding:20px;
+    height:100%;
+    transition:.3s;
+}
+
+.stp-card:hover{
+    transform:translateY(-5px);
+    box-shadow:0 12px 25px rgba(11,94,215,.15);
+}
+
+.stp-card span{
+    width:45px;
+    height:45px;
+    background:#0b5ed7;
+    color:#fff;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-weight:700;
+    margin-bottom:15px;
+}
+
+.stp-card h6{
+    margin:0;
+    line-height:1.7;
+    color:#1c355e;
+}
+
+@media(max-width:767px){
+    .stp-accordion .accordion-body{
+        padding:20px;
+    }
+
+    .stp-accordion .accordion-button{
+        font-size:16px;
+        padding:16px;
+    }
 }
