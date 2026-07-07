@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About Us | St. Peter's Educational Association</title>
+    <meta name="description" content="About St. Peter's Educational Association.">
+    <meta property="og:title" content="About Us | St. Peter's Educational Association">
+    <meta property="og:description" content="About St. Peter's Educational Association.">
+    <meta property="og:type" content="website">
+   <div id="head-links"></div>
+</head>
+
+<body>
+   <div id="header"></div>
+
+   <header class="inner-hero">
+    <div class="container">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Sports and Games</li>
+            </ol>
+        </nav>
+        <h1>Sports and Games</h1>
+    </div>
+</header>
+
+
+
+<section class="stp-about-page py-5">
+    <div class="container">
+
+        <div class="row g-5">
+
+            <!-- Content -->
+            <div class="col-lg-8 order-2 order-lg-1">
+
+             
+<div class="stp-principal-heading">
+
+                    <span class="stp-heading-bar"></span>
+
+                    <h2> Sports and Games</h2>
+
+                </div>
+   <div class="stp-content">
+<!-- <span class="section-kicker">Established 1980</span> -->
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa optio eius debitis sint necessitatibus corrupti, quibusdam facere reprehenderit non libero hic in expedita incidunt voluptatum maxime facilis quasi id repellendus.</p>
+
+                </div>
+
+            </div>
+
+            <!-- Sidebar -->
+            <div class="col-lg-4 order-1 order-lg-2">
+
+    <div class="stp-sidebar">
+
+        <a href="student-induction-programme.html" >
+            Student Induction Programme
+        </a>
+
+        <a href="mentoring.html" >
+            Mentoring
+        </a>
+
+        <a href="day-celebrations.html">
+            Day Celebrations
+        </a>
+
+        <a href="sports-and-games.html" class="active">
+            Sports and Games
+        </a>
+
+        <a href="cultural-activities.html">
+            Cultural Activities
+        </a>
+
+        <a href="field-visit-study-tour.html">
+            Field Visit / Study Tour
+        </a>
+
+        <a href="school-internship-program.html">
+            School Internship Program
+        </a>
+
+        <a href="list-of-practice-teaching-schools.html">
+            List of Practice Teaching Schools
+        </a>
+
+        <a href="extension-and-outreach-activities.html">
+            Extension and Outreach Activities
+        </a>
+
+    </div>
+
+</div>
+
+        </div>
+
+    </div>
+</section>
+
+
+
+
+
+
+    
+
+      <div id="footer"></div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  
+</body>
+<script>
+fetch("header.html")
+    .then(res => res.text())
+    .then(data => document.getElementById("header").innerHTML = data);
+fetch("head-links.html")
+    .then(res => res.text())
+    .then(data => document.getElementById("head-links").innerHTML = data);
+fetch("footer.html")
+    .then(res => res.text())
+    .then(data => document.getElementById("footer").innerHTML = data);
+</script>
+</html>

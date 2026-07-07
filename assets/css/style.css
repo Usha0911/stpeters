@@ -745,7 +745,7 @@ border-radius:0;
 
 .nav-item.dropdown:hover>.dropdown-menu{
 
-display:none;
+/* display:none; */
 
 }
 
@@ -774,6 +774,13 @@ box-shadow:none;
 }
 body{
     padding-top: 149px;   /* Adjust to your navbar height */
+}
+@media (max-width:768px){
+
+    body {
+    padding-top: 70px;
+}
+
 }
 .main-nav{
     position: fixed;
@@ -2266,4 +2273,145 @@ padding:14px 0;
     background:#163a6d;
     border-color:#163a6d;
     color:#fff;
+}
+/* teaching staff */
+.staff-table th{
+      background:#163a6d;
+        color:#fff;
+}
+/* contact-us */
+
+.contact-section{
+    padding:80px 0;
+}
+
+/* Top Cards */
+
+.contact-card{
+    background:#fff;
+    border-radius:10px;
+    padding:35px 25px;
+    text-align:center;
+    height:100%;
+    /* box-shadow:0 8px 25px rgba(0,0,0,.08); */
+    transition:.4s;
+    /* border-top:5px solid #0d6efd; */
+}
+
+.contact-card:hover{
+    /* transform:translateY(-8px); */
+}
+
+.contact-icon{
+    width:70px;
+    height:70px;
+    margin:auto;
+    border-radius:50%;
+    background:#516293;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:#fff;
+    font-size:30px;
+    margin-bottom:18px;
+}
+
+.contact-card h4{
+    font-weight:700;
+    color:#083c8c;
+    margin-bottom:15px;
+}
+
+.contact-card p{
+    color:#555;
+    line-height:28px;
+    margin:0;
+}
+
+/* Form Box */
+
+.form-box{
+    background:#fff;
+    padding:40px;
+    border-radius:18px;
+    /* box-shadow:0 8px 25px rgba(0,0,0,.08); */
+    height:100%;
+}
+
+.form-box h3{
+    color:#163a6d;
+    font-weight:700;
+}
+
+.form-box p{
+    color:#666;
+    margin-bottom:25px;
+}
+
+.form-control{
+    height:55px;
+    border-radius:10px;
+    margin-bottom:18px;
+}
+
+textarea.form-control{
+    height:160px;
+    resize:none;
+}
+
+.btn-send{
+    background:#0d4f9f;
+    color:#fff;
+    border:none;
+    padding:13px 35px;
+    border-radius:8px;
+    font-weight:600;
+}
+
+.btn-send:hover{
+    background:#0849ad;
+}
+
+/* Map */
+
+.map-box{
+    overflow:hidden;
+    border-radius:18px;
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
+    height:100%;
+}
+
+.map-box iframe{
+    width:100%;
+    height:100%;
+    min-height:520px;
+    border:0;
+}
+
+@media(max-width:991px){
+
+.form-box{
+    margin-bottom:30px;
+}
+
+.map-box iframe{
+    min-height:400px;
+}
+
+}
+
+@media(max-width:767px){
+
+.contact-card{
+    margin-bottom:20px;
+}
+
+.form-box{
+    padding:25px;
+}
+
+.contact-section{
+    padding:60px 0;
+}
+
 }
