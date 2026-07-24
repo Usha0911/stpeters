@@ -145,13 +145,13 @@ a {
 }
 
 .inner-hero {
-    background: linear-gradient(135deg, var(--navy), #173f76);
+    background: linear-gradient(135deg, #0615c8, #3a4ef0);
     color: #fff;
     padding: 64px 0
 }
 
 .inner-hero h1 {
-    font-size: clamp(2rem, 5vw, 3.8rem);
+    font-size: 33px;
     font-weight: 800
 }
 
@@ -298,7 +298,7 @@ a {
 }
 
 .site-footer {
-    background: #071a34;
+    background: #0615c8;
     color: #c9d6e8;
     padding: 64px 0 24px
 }
@@ -382,7 +382,7 @@ a {
 }
 
 .header-logo img{
-    height:70px;
+    height:100px;
     width:auto;
     display:block;
 }
@@ -425,7 +425,7 @@ a {
 }
 
 .header-social a:hover{
-    background:#163a6d;
+    background:#0615c8;
 }
 
 /* Large Screens */
@@ -481,7 +481,7 @@ a {
     }
 }
 .stp-navbar{
-    background:#163a6d;
+    background:#0615c8;
     padding:0;
 }
 
@@ -530,7 +530,7 @@ display:none;
 }
 
 .stp-navbar{
-padding:10px 0;
+padding:0px 0;
 }
 
 .stp-navbar .navbar-nav{
@@ -548,7 +548,7 @@ padding:12px 0 !important;
 
     border-bottom:1px solid #e8edf6;
 
-    padding:15px 0;
+    padding:0px 0;
 }
 
 .header-top .container{
@@ -611,7 +611,7 @@ padding:12px 0 !important;
 
 .custom-navbar{
 
-    background:#163a6d;
+    background:#0615c8;
 
     padding:0;
 
@@ -678,7 +678,7 @@ padding:12px 0 !important;
 
 .dropdown-item:hover{
 
-    background:#163a6d;
+    background:#0615c8;
 
     color:#fff;
 }
@@ -927,7 +927,7 @@ body{
 
 .stp-marquee-title{
 
-    background:#163a6d;
+    background:#0615c8;
 
     color:#fff;
 
@@ -1055,7 +1055,7 @@ body{
 .stp-heading-bar{
     width:4px;
     height:40px;
-    background:#0d4f9f;
+    background:#0615c8;
     margin-right:18px;
     border-radius:20px;
 }
@@ -1085,7 +1085,7 @@ body{
 
 .stp-principal-sign h5{
     margin:0;
-    color:#0d4f9f;
+    color:#0615c8;
     font-size:23px;
     font-weight:700;
 }
@@ -1101,7 +1101,7 @@ body{
 
     margin-top:30px;
 
-    background:#0d4f9f;
+    background:#0615c8;
 
     color:#fff;
 
@@ -1200,7 +1200,7 @@ body{
 
 .stp-mission-card .stp-card-overlay{
 
-    background:#163a6d;
+    background:#3c588d;
 
 }
 
@@ -1371,7 +1371,7 @@ body{
 }
 
 .news-readmore{
-    color:#14508c;
+    color:#0615c8;
     font-weight:700;
     font-size:.9rem;
     display:inline-flex;
@@ -1388,7 +1388,7 @@ body{
 }
 
 .btn-view-all{
-    background:#14508c;
+    background:#0615c8;
     color:#fff;
     font-weight:700;
     padding:10px 22px;
@@ -1480,7 +1480,7 @@ body{
     content:"";
     position:absolute;
     inset:0;
-    background:linear-gradient(rgba(8,44,98,.82),rgba(8,44,98,.82));
+    background:linear-gradient(rgba(13, 79, 145, 0.82), rgba(13, 79, 145, 0.82));
 }
 
 /*==============================
@@ -1697,7 +1697,7 @@ font-size: 32px;
     right:18px;
     bottom:18px;
 
-    background:rgba(13,79,145,.82); /* Transparent Blue */
+    background:linear-gradient(rgba(6, 21, 200, 0.82), rgba(6, 21, 200, 0.82)); /* Transparent Blue */
     backdrop-filter:blur(6px);
     -webkit-backdrop-filter:blur(6px);
 
@@ -1772,7 +1772,7 @@ font-size: 32px;
 }
 
 .stp-support-content a{
-    color:#14508c;
+    color:#007DCC;
     font-weight:600;
     text-decoration:none;
 }
@@ -1850,7 +1850,7 @@ font-size: 32px;
     width:60px;
     height:60px;
     border-radius:50%;
-    background:#0b5ed7;
+    background:#0615c8;
     color:#fff;
     display:flex;
     align-items:center;
@@ -2005,7 +2005,7 @@ font-size: 32px;
 
 .stp-sidebar a:hover{
 
-    color:#163a6d;
+    color:#0615c8;
     padding-left:12px;
 
 }
@@ -2074,7 +2074,7 @@ padding:14px 0;
 }
 
 .stp-accordion .accordion-button{
-    background:linear-gradient(90deg,#516293,#163a6d);
+    background:linear-gradient(90deg,#516293,#0615c8);
     color:#fff;
     font-size:18px;
     font-weight:600;
@@ -2083,7 +2083,7 @@ padding:14px 0;
 }
 
 .stp-accordion .accordion-button:not(.collapsed){
-    background:linear-gradient(90deg,#516293,#163a6d);
+    background:linear-gradient(90deg,#516293,#0615c8);
     color:#fff;
 }
 
@@ -2264,19 +2264,19 @@ padding:14px 0;
 }
 
 .report-tabs .nav-link:hover{
-    background:#163a6d;
-    border-color:#163a6d;
+    background:#0615c8;
+    border-color:#0615c8;
     color:#fff;
 }
 
 .report-tabs .nav-link.active{
-    background:#163a6d;
-    border-color:#163a6d;
+    background:#0615c8;
+    border-color:#0615c8;
     color:#fff;
 }
 /* teaching staff */
 .staff-table th{
-      background:#163a6d;
+      background:#0615c8;
         color:#fff;
 }
 /* contact-us */
@@ -2339,7 +2339,7 @@ padding:14px 0;
 }
 
 .form-box h3{
-    color:#163a6d;
+    color:#0615c8;
     font-weight:700;
 }
 
@@ -2360,7 +2360,7 @@ textarea.form-control{
 }
 
 .btn-send{
-    background:#0d4f9f;
+    background:#0615c8;
     color:#fff;
     border:none;
     padding:13px 35px;

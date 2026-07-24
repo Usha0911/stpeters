@@ -48,8 +48,9 @@
     }
 
     .navbar-brand img {
-               width: 350px;
-        height: 42px
+               width: 251px;
+        height: 72px;
+        background-color: #fff;
     }
 
     .hero-actions .btn {
